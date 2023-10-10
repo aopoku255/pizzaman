@@ -32,7 +32,7 @@ const ScrollUp = () => {
         onClick={scrollToTop}
         className={`${
           isVisible ? "bottom-8" : "-bottom-10"
-        } fixed right-5 bg-[#e93e21] p-3
+        } fixed right-5 bg-primary p-3
       transition duration-400 hover:opacity-80 z-10`}
       >
         <svg

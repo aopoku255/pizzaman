@@ -30,13 +30,13 @@ function Member() {
                 </p>
                 <div>
                 <div className="flex gap-2 items-center py-8">
-                  <a href={members[i].twitterLink} className="p-2 rounded-full bg-[#e93e21]">
+                  <a href={members[i].twitterLink} className="p-2 rounded-full bg-primary">
                     <FaTwitter color="white" />
                   </a>
                   <Link 
                   to={`/:${members[i].name}`}
                   onClick={() => handleIndex(index)}
-                   className="p-2 rounded-full  bg-[#e93e21]">
+                   className="p-2 rounded-full  bg-primary">
                     <LiaHouzz color="white" />
                   </Link>
                 </div>

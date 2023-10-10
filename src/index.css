@@ -31,7 +31,7 @@ body{
 
 .accra_branch,.kumasi, .trucks, .kumasi:hover, .tracks:hover
 {
-  background-color: #e93e21;
+  background-color: #ee1d25;
   color: white;
 }
 
@@ -43,14 +43,14 @@ body{
 }
 
 .about{
-    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('../src/assets/new.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.75)), url('../src/assets/new.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
 }
 
 .counting{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../src/assets/plantain.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.8)), url('../src/assets/plantain.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;

@@ -1,13 +1,18 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import gallery1 from '../assets/gallery-1.jpg'
-import gallery2 from '../assets/gallery-2.jpg'
-import gallery3 from '../assets/gallery-3.jpg'
-import gallery4 from '../assets/gallery-4.jpg'
-import gallery5 from '../assets/gallery-5.jpg'
-import gallery6 from '../assets/gallery-6.jpg'
-import gallery7 from '../assets/gallery-7.jpg'
+import gallery1 from '../assets/pizza/friedRice.jpg';
+import gallery2 from '../assets/pizza/friedRice7.jpg';
+import gallery3 from '../assets/pizza/friedRice3.jpg';
+import gallery4 from '../assets/pizza/friedRice(mini).jpg';
+import gallery5 from '../assets/pizza/friedRice6.jpg';
+import gallery6 from '../assets/pizza/jollof(2).jpg';
+import gallery7 from '../assets/pizza/NOODLES.jpg';
+
+
+
+
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -24,11 +29,11 @@ export default function Gallery() {
   return (
     <>
     <div className='flex flex-col items-center justify-center mt-20 '>
-        <h4 className='font-bold text-6xl font-custom'>Gallery</h4>
-        <Underline/>
+        <h4 className='font-bold text-6xl font-custom pb-5 border-b-2 border-b-[#e93e21]'>Gallery</h4>
+        
         <span className='font-custom text-xlg my-2'>Check Our Gallery</span>
     </div>
-      <Swiper id="mySwiper" style={{height: '400px', width: '100%'}}
+      <Swiper id="mySwiper" style={{width: '100%'}}
  
         effect={'coverflow'}
         grabCursor={true}

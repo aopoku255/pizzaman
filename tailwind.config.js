@@ -18,8 +18,13 @@ export default {
       fontFamily: {
         'Montserrat': ['Montserrat','Arial','Helvetica','sans-serif'],
       },
+      boxShadow: {
+        card: "rgba(149, 157, 165, 0.2) 0px 8px 24px;",
+      },
       colors: {
-        reddish: "rgb(228, 18, 46)",
+        primary: "#ee1d25",
+        secondary: "#ffd400"
+
       },
     },
    

@@ -17,12 +17,12 @@ function OurTeam() {
       <div className="h-fit">
       <div key={index} className="lg:w-[32rem] w-full bg-slate-700 relative group">
         <div className="group-hover:absolute group-hover:top-0 group-hover:bottom-0 group-hover:left-0 group-hover:right-0 group-hover:bg-black/20 group-hover:w-full group-hover:h-full transition-all duration-300 ease-in"></div>
-        <div className="absolute h-0 w-full bg-red-500 bottom-[4rem] group-hover:h-16 duration-300">
+        <div className="absolute h-0 w-full bg-primary bottom-[4rem] group-hover:h-16 duration-300">
           <div className="hidden group-hover:flex gap-2 justify-center items-center h-16 transition-all opacity-0 group-hover:opacity-100 duration-300 ">
             {member.twitter ? (
               <a
                 href={member.twitterLink}
-                className="p-2 rounded-full border border-white text-white hover:bg-white hover:text-[#e93e21] transition duration-300"
+                className="p-2 rounded-full border border-white text-white hover:bg-white hover:text-primary transition duration-300"
               >
                 <FaTwitter />
               </a>
@@ -32,7 +32,7 @@ function OurTeam() {
             <Link
               to={`/team-member/${member.name}`}
               onClick={() => handleIndex(index)}
-              className="p-2 rounded-full border text-white border-white hover:bg-white hover:text-[#e93e21] transition duration-300"
+              className="p-2 rounded-full border text-white border-white hover:bg-white hover:text-primary transition duration-300"
             >
               <LiaHouzz />
             </Link>
@@ -65,7 +65,7 @@ function OurTeam() {
 
       <div>
         <div className="flex justify-center">
-          <h2 className="text-3xl text-center pb-5 border-b-2 border-b-[#e93e21] w-fit">
+          <h2 className="text-3xl text-center pb-5 border-b-2 border-b-primary w-fit">
             Management Team
           </h2>
         </div>

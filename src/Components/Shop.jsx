@@ -29,10 +29,6 @@ import { Modal } from 'reactstrap';
 import { AiOutlineClose } from 'react-icons/ai';
 
 
-// import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper/core';
-
-// SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
-
 const Shop = () => {
   const [Ismodal, setIsModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
@@ -70,10 +66,6 @@ const Shop = () => {
       <Swiper
         modules={[Navigation, Scrollbar, A11y, Autoplay]}
         navigation
-        // pagination={{ clickable: false }}
-        // scrollbar={{ draggable: false }}
-        // spaceBetween={10}
-        // slidesPerView={4}
         loop={true}
         autoplay={{
           delay: 2500,
@@ -94,7 +86,6 @@ const Shop = () => {
           },
         }}
         className="mySwiper"
-        // className='relative swiper-button-prev:after swiper-button-next:after'
       >
         {shopImg.map((shop) => (
           <SwiperSlide key={shop.id}>
@@ -126,17 +117,17 @@ const Shop = () => {
         )}
       </Modal>
 
-      <div className="bg-red-500   md:relative  md:h-[10rem] w-full md:flex md:flex-row md:items-center md:px-16 md:justify-between mt-1 md:pt-4 py-14 px-6">
+      <div className="bg-primary md:relative md:h-[10rem] w-full md:flex md:flex-row md:items-center md:px-16 md:justify-between mt-10 md:pt-4 py-14 px-6 mt-">
         <div className="flex flex-col md:mt-10">
           <h3 className="text-white font-bold md:text-3xl text-2xl">We Speak The Good Food Language</h3>
           <span className="text-white text-lg">Find your nearest restaurant</span>
         </div>
         <div className="mt-8 ">
           <Link
-            to="/shops"
-            className="border-[1.5px] bg-transparent text-center text-white border-white px-10 py-3 hover:bg-black rounded-md transition-all duration-400"
+            to="/our-branches"
+            className="text-center text-black lg:px-10 px-5 py-3 bg-white rounded-sm transition-all duration-400 hover:bg-black hover:text-white"
           >
-            SHOPS NEAR ME
+            Shops Near Me
           </Link>
         </div>
       </div>

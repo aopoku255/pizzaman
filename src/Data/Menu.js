@@ -40,12 +40,6 @@ import jollof8 from '../assets/pizza/jollof(Mb).jpg'
 import jollof9 from '../assets/pizza/jollof(mini).jpg'
 
 
-
-
-
-// import pizza16 from '../assets/pizza/'
-
-
 const MenuData = [
     {
         id:1,
@@ -84,87 +78,7 @@ const MenuData = [
         desc:' A tantalizing combination of crispy, cheesy, and flavorful ingredients that create a unique and delicious pizza experience.',
 
     },
-    {
-        id:5,
-        image:pizza6,
-        title:'Chicham',
-        category:'pizza',
-        price:'20.00',
-        desc:'Savor the Irresistible Taste of Authentic Italian Flavor in Every Bite',
-
-    },
-    {
-        id:6,
-        image:pizza7,
-        title:'Daisy Lawre',
-        category:'pizza',
-        price:'20.00',
-        desc:'A Delicious Fusion of Flavors and Delight in Every Savory Bite.',
-
-    },
-    {
-        id:7,
-        image:pizza9,
-        title:'Gretaben',
-        category:'pizza',
-        price:'20.00',
-        desc:'Satisfy Your Cravings with a Delectable Fusion of Tantalizing Flavors and Irresistible Ingredients',
-
-    },
-    {
-        id:8,
-        image:pizza10,
-        title:'Kersame',
-        category:'pizza',
-        price:'20.00',
-        desc:'Where Flavor Meets Tradition, Serving Up 16-Inch Pizzas Bursting with Mouthwatering Tastes and Authentic Ingredients',
-
-    },
-    {
-        id:9,
-        image:pizza11,
-        title:'Klarabella',
-        category:'pizza',
-        price:'20.00',
-        desc:'Unveil the Delight of Premium Pizzas, Crafted with Impeccable Taste and Quality Ingredients',
-
-    },
-    {
-        id:10,
-        image:pizza12,
-        title:'Laprisirip',
-        category:'pizza',
-        price:'20.00',
-        desc:'Discover Culinary Excellence with Our Exceptional Pizzas, Crafted for Unforgettable Taste and Satisfaction',
-
-    },
-    {
-        id:11,
-        image:pizza13,
-        title:'Magerita',
-        category:'pizza',
-        price:'20.00',
-        desc:'A Classic Italian Delight, Featuring Simplicity and the Perfect Harmony of Tomato, Basil, and Mozzarella',
-
-    },
-    {
-        id:12,
-        image:pizza14,
-        title:'Obiridan',
-        category:'pizza',
-        price:'20.00',
-        desc:'A Flavorful Fusion of Beef and Chicken, Elevating Your Dining Experience with Every Bite',
-
-    },
-    {
-        id:13,
-        image:pizza15,
-        title:'Panchito',
-        category:'pizza',
-        price:'20.00',
-        desc:'A Mexican Fiesta on Your Plate, Featuring Authentic Flavors and Savory Delights',
-
-    },
+ 
     {
         id:14,
         image:friedRice,
@@ -201,42 +115,7 @@ const MenuData = [
         desc:'A Delectable Combination of Rich Jollof Rice Paired with Two Succulent Chicken Drumsticks.',
 
     },
-    {
-        id:18,
-        image:friedRice5,
-        title:'Chickenman Jollof(3 Wings)',
-        category:'chicken',
-        price:'20.00',
-        desc:'A Perfect Fusion of Flavorful Jollof Rice and Three Delicious Chicken Wings.',
-
-    },
-    {
-        id:19,
-        image:friedRice6,
-        title:'Chickenman JollofRice Only',
-        category:'chicken',
-        price:'20.00',
-        desc:'Savor the Authentic Flavors of Jollof Rice, a Delectable Dish on Its Own.',
-
-    },
-    {
-        id:20,
-        image:friedRice7,
-        title:'Chickenman Mini Bucket(Drums)',
-        category:'chicken',
-        price:'20.00',
-        desc:'A Bite-Sized Bucket of Flavorful Delights, Perfect for Snacking or Sharing.',
-
-    },
-    {
-        id:21,
-        image:friedRice8,
-        title:'Chickenman Mini Bucket',
-        category:'chicken',
-        price:'20.00',
-        desc:'A Bite-Sized Bucket of Flavorful Delights, Perfect for Snacking or Sharing.',
-
-    },
+   
     {
         id:22,
         image:yam1,
@@ -318,60 +197,7 @@ const MenuData = [
         desc:'A classic African rice dish served with three flavorful chicken wings, a delicious combination.',
 
     },
-    {
-        id:31,
-        image:jollof4,
-        title:'Jollof Metreat(1 Drum)',
-        category:'jollof',
-        price:'20.00',
-        desc:'A unique fusion dish with a twist, served with one savory drumstick for added flavor.',
-
-    },
-    {
-        id:32,
-        image:jollof5,
-        title:'Jollof(2 Drums)',
-        category:'jollof',
-        price:'20.00',
-        desc:'A unique fusion dish with a twist, served with one savory drumstick for added flavor.',
-
-    },
-    {
-        id:33,
-        image:jollof6,
-        title:'Jollof(Beef Cubes)',
-        category:'jollof',
-        price:'20.00',
-        desc:' A delicious African rice dish enhanced with flavorful beef cubes for an extra savory touch.',
-
-    },
-    {
-        id:34,
-        image:jollof7,
-        title:'Jollof (Mini Bucket)',
-        category:'jollof',
-        price:'20.00',
-        desc:' A flavorful serving of Jollof rice in a convenient, mini-sized bucket for a delightful meal.',
-
-    },
-    {
-        id:35,
-        image:jollof8,
-        title:'Jollof (Mini Bucket Drum)',
-        category:'jollof',
-        price:'20.00',
-        desc:'A delightful twist on classic Jollof rice, served in a mini bucket with a savory drumstick.',
-
-    },
-    {
-        id:36,
-        image:jollof9,
-        title:'Jollof (Mini Bucket Drums)',
-        category:'jollof',
-        price:'20.00',
-        desc:'A delectable serving of Jollof rice with savory drumstick pieces, packed in a mini bucket.',
-
-    },
+   
 
 
 

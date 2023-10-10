@@ -5,7 +5,7 @@ import { sliderData } from "../Data/Hero";
 import { Link } from "react-router-dom";
 import "./styles.css";
 import Navbar2 from "./Navbar2";
-
+import  menu  from '../assets/menu.pdf'
 
 
 
@@ -47,8 +47,6 @@ const Hero = () => {
    <div className="relative">
        <Navbar2/>
     <div className="slider">
-      <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
-      <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
       {sliderData.map((slide, index) => {
         return (
           <div
@@ -68,7 +66,7 @@ const Hero = () => {
                 <h2 className="text-xl font-bold">{slide.heading}</h2>
                 <p>{slide.desc}</p>
                 <hr />
-                <button className='relative border-[1.5px] bg-transparent text-white border-red-500 px-10 py-3 hover:bg-black rounded-md transition-all duration-400'><a href='/about'>{slide.button}</a></button>
+                <button className='relative text-white bg-primary px-10 py-3 hover:opacity-70 transition-all duration-400'><a href={menu}>{slide.button}</a></button>
               </div>
             </div>
               

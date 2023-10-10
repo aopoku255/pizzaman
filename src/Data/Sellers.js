@@ -1,12 +1,12 @@
-import jollof from '../assets/pizza/tighs(8).jpg'
+import friedrice from '../assets/pizza/friedrice5.jpg'
 import orange from '../assets/pizza/yam2.jpg'
 import plantain from '../assets/pizza/jollof(bucket).jpg'
-import pizza from '../assets/pizza/pizza10.jpg'
+import noodle from '../assets/pizza/NOODLES.jpg'
 
 const SellersData = [
     {
         id:1,
-        img:jollof,
+        img:friedrice,
         title:'Drums 8PCS',
         price:'11.90',
     },
@@ -24,7 +24,7 @@ const SellersData = [
     },
     {
         id:1,
-        img:pizza,
+        img:noodle,
         title:'Kersame Pizza',
         price:'11.90',
     },

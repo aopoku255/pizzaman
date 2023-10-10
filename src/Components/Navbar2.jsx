@@ -47,18 +47,18 @@ function Navbar2() {
       >
         {navLink?.id === 'our-menu' ? (
           <a href={menu} className={`${
-              active === navLink?.title ? "text-[#e93e21]" : "text-[#fff]"
+              active === navLink?.title ? "text-primary" : "text-[#fff]"
             } ${navbar && "text-[black]"}
-            hover:text-[#e93e21] uppercase text-base font-semibold h-[5rem] flex justify-center items-center`}>
+            hover:text-primary uppercase text-base font-semibold h-[5rem] flex justify-center items-center`}>
             {navLink?.title}
           </a>
         ) : (
           <Link
             to={`/${navLink?.id}`}
             className={`${
-              active === navLink?.title ? "text-[#e93e21]" : "text-[#fff]"
+              active === navLink?.title ? "text-primary" : "text-[#fff]"
             } ${navbar && "text-[black]"}
-            hover:text-[#e93e21] uppercase text-base font-semibold h-[5rem] flex justify-center items-center`}
+            hover:text-primary uppercase text-base font-semibold h-[5rem] flex justify-center items-center`}
           >
             {navLink?.title}
           </Link>
@@ -68,10 +68,10 @@ function Navbar2() {
           className={`${
             visible === navLink?.title ? "block" : "hidden"
           } absolute top-20 bg-white border-t-4 
-          ${navLink?.subLink?.length > 0 && "border-[#e93e21] w-64"}`}
+          ${navLink?.subLink?.length > 0 && "border-primary w-64"}`}
         >
           {navLink?.subLink?.map((subLink, index) => (
-            <NavLink to={`/${subLink.id}`} key={index} className={`block text-sm pl-5 py-4 hover:bg-[#e93e21] hover:text-white ${index === 0 && "border-b border-white"}
+            <NavLink to={`/${subLink.id}`} key={index} className={`block text-sm pl-5 py-4 hover:bg-primary hover:text-white ${index === 0 && "border-b border-white"}
                `}
               onClick={() => setSubActive(subLink?.title)}
               style={({isActive}) => isActive ? {backgroundColor: "#e93e21", color: "#fff"} : {backgroundColor: "text-white"}}
@@ -101,15 +101,15 @@ function Navbar2() {
       {/* Mobile Version */}
       {toggle && (
         <nav className="lg:hidden block absolute bg-white top-20 left-0 right-0">
-      <ul className="flex flex-col px-4 border-t-4 border-[#e93e21]">
+      <ul className="flex flex-col px-4 border-t-4 border-primary">
         {NavLinks.map((navLink, index) => (
           <li key={index} className="relative inline-block">
             {navLink.id === 'our-menu' ? (
               <a
                 href={menu} 
                 className={`${
-                  active === navLink.title ? 'text-[#e93e21]' : 'text-[#4d5257]'
-                } hover:text-[#e93e21] uppercase text-base font-semibold flex justify-between items-center py-4 border-b`}
+                  active === navLink.title ? 'text-primary' : 'text-[#4d5257]'
+                } hover:text-primary uppercase text-base font-semibold flex justify-between items-center py-4 border-b`}
               >
                 {navLink.title}
               </a>
@@ -117,8 +117,8 @@ function Navbar2() {
               <Link
                 to={`/${navLink.id}`}
                 className={`${
-                  active === navLink.title ? 'text-[#e93e21]' : 'text-[#4d5257]'
-                } hover:text-[rgb(233,62,33)] uppercase text-base font-semibold flex justify-between items-center py-4 border-b`}
+                  active === navLink.title ? 'text-primary' : 'text-[#4d5257]'
+                } hover:text-primary uppercase text-base font-semibold flex justify-between items-center py-4 border-b`}
                 onClick={() => {
                   setActive(navLink.title);
                   navLink.subLink?.length > 0 && setSubNav(!subNav);
@@ -136,8 +136,8 @@ function Navbar2() {
               {navLink.subLink?.map((subLink, index) => (
                 <li
                   key={index}
-                  className={`text-sm hover:text-[#e93e21] flex justify-between py-4 border-b ${
-                    subActive === subLink?.title && 'text-[#e93e21]'
+                  className={`text-sm hover:text-primary flex justify-between py-4 border-b ${
+                    subActive === subLink?.title && 'text-primary'
                   }`}
                   onClick={() => setSubActive(subLink?.title)}
                 >

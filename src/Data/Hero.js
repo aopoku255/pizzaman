@@ -3,7 +3,7 @@
 import backgroundImg1 from './../assets/ChickenPizza.jpg';
 import backgroundImg2 from './../assets/jollof3.jpg'; 
 
-import backgroundImg4 from '../assets/youtube.jpg'
+import backgroundImg4 from '../assets/chicken.jpg'
 
 export const sliderData = [
     {

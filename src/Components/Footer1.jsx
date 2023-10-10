@@ -25,36 +25,36 @@ const Footer1 = () => {
           <div className="space-y-4">
             <div>
               <div />
-              <Link to="/about_us" className="hover:text-[#e93e21]">
+              <Link to="/about-us" className="hover:text-primary">
                 About Us
               </Link>
             </div>
             <div>
               <div />
-              <Link to="/our_branch" className="hover:text-[#e93e21]">
+              <Link to="/our-branches" className="hover:text-primary">
                 Our Branches
               </Link>
             </div>
             <div>
               <div />
-              <Link to="/our_team" className="hover:text-[#e93e21]">
+              <Link to="/our-team" className="hover:text-primary">
                 Our Team
               </Link>
             </div>
             <div>
               <div />
-              <a to="/" className="hover:text-[#e93e21]">
+              <a to="/" className="hover:text-primary">
                 Menu
               </a>
             </div>
           </div>
         </div>
         <div className="flex flex-col gap-5">
-          <h1 className="text-2xl">Download App</h1>
-          <a href="">
+          <h1 className="text-2xl">Download the App</h1>
+          <a href="https://apps.apple.com/gh/app/chris-b/id6445878198">
             <img src={apple} />
           </a>
-          <a href="">
+          <a href="https://play.google.com/store/apps/details?id=com.pizzamangh&pcampaignid=web_share">
             <img src={google} />
           </a>
         </div>
@@ -63,11 +63,11 @@ const Footer1 = () => {
         </div>
       </div>
       <div className="py-10 text-white text-center">
-        <p>Copyright © 2022 <span className="text-[#e93e21]">PizzaMan & ChickenMan.</span> All rights reserved.</p>
+        <p>Copyright © 2023 <span className="text-primary">Pizzaman Chickenman</span> All rights reserved.</p>
         <div className="flex gap-10 justify-center py-10">
-                <a href="" className="p-4 rounded-full border border-white hover:bg-[#e93e21] hover:border-[#e93e21] transition-all duration-200 ease-out"><FaFacebookF/></a>
-                <a href="" className="p-4 rounded-full border border-white hover:bg-[#e93e21] hover:border-[#e93e21] transition-all duration-200 ease-out"><FaTwitter/></a>
-                <a href="" className="p-4 rounded-full border border-white hover:bg-[#e93e21] hover:border-[#e93e21] transition-all duration-200 ease-out"><FaInstagram/></a>
+                <a href="https://www.facebook.com/pizza%20man%20ghana" className="p-4 rounded-full border border-white hover:bg-primary hover:border-primary transition-all duration-200 ease-out"><FaFacebookF/></a>
+                <a href="https://twitter.com/pizzamanghana" className="p-4 rounded-full border border-white hover:bg-primary hover:border-primary transition-all duration-200 ease-out"><FaTwitter/></a>
+                <a href="https://www.instagram.com/pizzamanchickenman/" className="p-4 rounded-full border border-white hover:bg-primary hover:border-primary transition-all duration-200 ease-out"><FaInstagram/></a>
         </div>
       </div>
     </div>
