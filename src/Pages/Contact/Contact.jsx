@@ -30,13 +30,13 @@ const Contact = () => {
                     <div className=" mt-8">
                         <div className="flex flex-col md:flex-row w-full justify-center">
                             <div className=" mr-7 w-full">
-                                <label className="text-xl" htmlFor="name">Name *</label>
+                                <label className="text-xl" htmlFor="name">Name <span className="text-primary">*</span></label>
                                 <div className=" bg-white flex rounded-md items-center md:w-[26vw]  h-10 mt-2 border-2">
                                     <input className=" w-full ml-2 outline-none text-[16.2px]" type="text" id="name" placeholder="Name" required/>
                                 </div>
                             </div>
                             <div className=" md:mt-0 mt-4">
-                                <label className=" text-xl" htmlFor="email">Email *</label>
+                                <label className=" text-xl" htmlFor="email">Email <span className="text-primary">*</span></label>
                                 <div className=" flex bg-white rounded-md items-center md:w-[26vw] h-10 mt-2 border-2">
                                     <input className=" w-full ml-2 text-[16.2px] outline-none" type="text" id="email" placeholder="Email" required/>
                                 </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
 
                     <div className=" mt-7 mb-8">
-                        <input className=" w-36 md:w-[14vw] h-10 text-white rounded-md bg-[#e93e21] cursor-pointer" type="submit" value="Submit" />
+                        <input className="text-white bg-primary cursor-pointer px-12 py-2" type="submit" value="Submit" />
                     </div>
 
                 </div>

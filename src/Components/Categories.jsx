@@ -1,9 +1,9 @@
 
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import MenuData from '../Data/Menu';
 
 const Categories = ({ filterItems }) => {
-  const [isactive, setIsActive] = useState(false);
+  const [isactive, setIsActive] = useState('pizza');
   const [menuItem, setMenuItems] = useState(MenuData);
 
   const handleFilter = (category) => {
@@ -14,6 +14,10 @@ const Categories = ({ filterItems }) => {
      return;
     }
 }
+
+useEffect(() => {
+  filterItems(isactive); // Initially filter by the default active category (Pizza)
+}, []);
   return (
     <div className='flex flex-row md:mt-0 mt-5 flex-wrap overflow-x-auto'>
                   
